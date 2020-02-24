@@ -24,23 +24,28 @@
     width:400px ;
     border: 1px solid $color-yellow-1;
 
-    @media only screen and (max-width: $bp-small) {
-      width:250px ;
-    }
-    @media only screen and (max-width: $bp-ultra-small) {
-      width:200px ;
-    }
-    @media only screen and (max-width: $bp-ultra-medium) {
-      width:150px ;
-    }
+    // @media only screen and (max-width: $bp-small) {
+    //   width:250px ;
+    // }
+    // @media only screen and (max-width:$bp-ultra-small) {
+    //   width:200px ;
+    // }
+    // @media only screen and (max-width: $bp-ultra-medium) {
+    //   width:150px ;
+    // }
    
     
   }
-  &__img{
+  
+  &__icon{
     z-index: 2;
-    margin-left: -2rem;
+    margin-left: -2rem;    
+    height: 2rem;
+    width: 2rem;
+    fill: red;
 
   }
+
   &__input:focus{
     outline: none;
     background-color: $color-gray-1;

@@ -57,18 +57,12 @@ p {
     border-radius: 100px;
     width: 400px;
     border: 1px solid #ffe26e; }
-    @media only screen and (max-width: 800px) {
-      .search__input {
-        width: 250px; } }
-    @media only screen and (max-width: 680px) {
-      .search__input {
-        width: 200px; } }
-    @media only screen and (max-width: 550px) {
-      .search__input {
-        width: 150px; } }
-  .search__img {
+  .search__icon {
     z-index: 2;
-    margin-left: -2rem; }
+    margin-left: -2rem;
+    height: 2rem;
+    width: 2rem;
+    fill: red; }
   .search__input:focus {
     outline: none;
     background-color: #e1e1e1;
