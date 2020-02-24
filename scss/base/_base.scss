@@ -1,0 +1,37 @@
+// colores
+$color-primary:#ffd93f;
+$color-secondary:#ffcc00;
+$color-light:#ffde59;
+
+$color-yellow-0: #ffcc00;
+$color-yellow-1:#ffe26e;
+$color-yellow-2:#ffe57d;
+$color-yellow-3:#fff2bd;
+$color-yellow-4:#fff8da;
+
+$color-gray-1:#e1e1e1;
+$color-gray-2:#cdcdcd;
+$color-gray-3:#a2a2a2;
+$color-gray-4:#5b5b5b;
+$line: 1px solid $color-gray-1;
+
+$bp-big: 1100px;
+$bp-medium: 900px;
+$bp-small: 800px;
+
+$bp-ultra-small: 680px;
+$bp-ultra-medium: 550px;
+$bp-ultra-big: 420px;
+
+*{
+  margin: 0;
+  font-family: 'Open Sans';
+}
+
+li{
+  list-style: none;
+}
+
+p{
+  color:$color-gray-4;
+}

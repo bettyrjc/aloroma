@@ -1,0 +1,45 @@
+////////////////////////////////////////
+// HEADER
+.header{
+  background-color: white;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: $line;
+}
+
+////////////////////////////////////////
+// CONTENT
+.content{
+  display: flex;
+}
+
+/////////////////////////////////////////
+// SIDEBAR
+
+.sidebar{
+  border-right: $line;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  @media only screen and (max-width: $bp-ultra-small) {
+    display: none;
+}
+  
+}
+
+/////////////////////////////////////////
+// CONTENT
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  @media only screen and (max-width: $bp-ultra-medium) {
+     display: block;
+}
+}
