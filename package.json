@@ -11,7 +11,7 @@
     "compress": "node-sass css/style.comp.css css/style.css --output-style compressed",
     "build": "npm-run-all compile compress"
   },
-  "author": "",
+  "author": "betty jimenez",
   "license": "ISC",
   "dependencies": {
     "ajax": "0.0.4",

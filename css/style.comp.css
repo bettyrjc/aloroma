@@ -69,9 +69,9 @@ p {
   .search__icon {
     z-index: 2;
     margin-left: -2rem;
-    height: 2rem;
-    width: 2rem;
-    fill: var(--color-grey-dark-3); }
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: #a2a2a2; }
   .search__input:focus {
     outline: none;
     background-color: #e1e1e1;
@@ -96,6 +96,7 @@ p {
     height: 20px;
     display: flex;
     align-items: center;
+    fill: #a2a2a2;
     position: relative; }
     @media only screen and (max-width: 550px) {
       .user-nav__icon {
